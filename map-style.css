@@ -1,0 +1,26 @@
+body {
+    background-color: deepskyblue;
+}
+
+
+.map-div {
+    width:20%;
+    margin: auto;
+}
+
+
+.map-div path {
+    fill:#FEFEE9;
+    stroke: #dece0c;
+    stroke-width: 4px;
+    transition: fill 0.3s;
+}
+
+.land{
+    /*fill: #FEFEE9;*/
+    fill-opacity: 1;
+    stroke:#000;
+    stroke-width: 4px;
+    stroke-opacity: 1;
+    transition: fill 0.3s;
+}

@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Case study 2: Data visualisation</title>
+
+    <!-- Libraries -->
+    <script src="lib/p5.min.js"></script>
+    <script src="lib/p5.dom.min.js"></script>
+    <script src="lib/p5.experience.min.js"></script>
+    <script src="node_modules/snapsvg/dist/snap.svg.js"></script>
+
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="map-style.css">
+
+    <!-- Main sketch file -->
+    <script src="sketch.js"></script>
+
+    <!--Data-->
+    <script src="data/map/districts.json"></script>
+
+    <!-- Main visualisation files -->
+    <script src="tech-diversity-race.js"></script>
+    <script src="tech-diversity-gender.js"></script>
+    <script src="pay-gap-by-job-2017.js"></script>
+    <script src="pay-gap-1997-2017.js"></script>
+    <script src="climate-change.js"></script>
+    <script src="covid-infection-by-gender.js"></script>
+    <script src="bubble-map.js"></script>
+    <script src="timeline.js"></script>
+    <script src="choropleth.js"></script>
+
+
+    <!-- Add extra scripts below -->
+    <script src="helper-functions.js"></script>
+    <script src="gallery.js"></script>
+    <script src="pie-chart.js"></script>
+
+
+  
+    
+
+    <style>
+      #visuals-menu{
+        z-index: 1;
+      }
+    </style>
+    
+  </head>
+  <body>
+    
+
+    <div id="app" class="container">
+      <ul id="visuals-menu"></ul>
+
+      <svg id="svg"></svg>
+
+      
+    </div>
+
+    
+  </body>
+</html>
